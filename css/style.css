@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css?family=Exo+2|Noto+Sans+KR');
+
+​
+
+/* reset */
+
+* {margin: 0; padding: 0;}
+
+li {margin: 0; padding: 0; list-style: none;}
+
+a {text-decoration: none;}
+
+body {background-color: rgb(000,065,145); font-size:15px;}
+
+#wrap {width: 1000px; height: 1200px; margin: 0 auto; position: relative; /* 기준점 */}
+
+#wrap header {width: 1000px; height: 70px; position: absolute; top: 0; left: 0; z-index:999; 
+
+background-color: #fff; box-shadow: 0 0 7px rgba(0,0,0,0.2);} 
+
+#wrap header h1.logo {width: 200px; height: 70px; float: left; position: absolute; top: 0; left: 0; z-index:2;}
+
+#wrap header h1.logo img{width: 100px; margin-top: 23px; margin-left: 10px;}
+
+#wrap header nav.menu {width: 800px; height: 70px; float: right; }
+
+#wrap header nav.menu ul {float: right;}
+
+#wrap header nav.menu ul li{ float: left;}
+
+#wrap header nav.menu ul li a{ display: block; width: 130px; height: 30px; line-height: 30px;
+
+text-align: center; background-color: rgb(000,065,145); border-top:1px solid rgb(000,065,145);
+
+color: #fff; margin-left: 1px; margin-top: 17px; transition: .3s;  font-weight: bold; 
+
+}
+
+#wrap header nav.menu ul li a:hover,
+
+#wrap header nav.menu ul li a:focus {background-color: #fff; color: rgb(000,065,145);
+
+    border-top:1px solid rgb(000,065,145); font-weight: bold; box-sizing: border-box;
+
+}
+
+#wrap section {font-family: 'Exo 2', sans-serif; clear:both; width: 1000px; position: relative; top: 70px; left: 0;
+
+z-index:-999;}
+
+#wrap section h2{font-size: 70px; position: absolute; top: 350px; left: 50%;
+
+transform: translate(-50%,-50%); color: #fff; text-shadow: 0 0 10px rgba(0,0,0,0.5);}
+
+#wrap section video{width: 1000px; position: absolute; top: 0; left: 0; z-index: -999; 
+
+box-shadow: 0 0 30px rgba(0,0,0,0.5);
+
+}
+
+#wrap footer {width: 1000px; height: 40px; line-height: 40px; position: absolute; top: 780px; left: 0;
+
+text-align: center; font-size: 13px; color: #fff; text-shadow: 0 0 5px #000;}
+[출처] ★ [수업중 줌영상 추가] 1일차 예제 - 완료본과 style.css 의 속성 설명 (카이스트 수리과학과 홈페이지 수업 2023.03) | 작성자 장안선
